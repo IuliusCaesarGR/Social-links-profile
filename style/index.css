@@ -34,7 +34,9 @@ figure {
     align-items: center;
 }
 .card{
-    width: 327px;
+    width: 50vw;
+    min-width: 327px;
+    max-width: 375px;
     height: 580px;
     background-color: var(--clr-card);
     display: flex;
@@ -45,12 +47,12 @@ figure {
     padding: 30px;
 }
 .profile-info{
-    height: 30%;
+    height: 32%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     img{
-     width: 80px;
+     width: 90px;
      border-radius: 50%;
      position: relative;
      left: 50%;
@@ -83,6 +85,7 @@ figure {
         color: var(--clr-text);
         margin-top: 15px;
         font-weight: 700;
+        cursor: pointer;
     }
     button:hover{
         background-color: var(--clr-location);
