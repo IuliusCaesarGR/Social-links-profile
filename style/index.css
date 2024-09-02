@@ -35,20 +35,20 @@ figure {
 }
 .card{
     width: 327px;
-    height: 550px;
+    height: 580px;
     background-color: var(--clr-card);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     border-radius: 12px;
-    padding: 20px;
+    padding: 30px;
 }
 .profile-info{
     height: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     img{
      width: 80px;
      border-radius: 50%;
@@ -68,7 +68,7 @@ figure {
     font-size: var(--fnts-paragraph);
     p{
         text-align: center;
-        margin: 5px 0px;
+        margin: 10px 0px 8px 0px;
         font-weight: 400;
     }
     li{
