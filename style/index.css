@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     src: url("./../assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format('truetype');
     font-weight: 400 600 700;
 }
@@ -13,7 +13,7 @@
     --clr-card: hsl(0, 0%, 12%);
     --clr-main: hsl(0, 0%, 8%);
     --fnts-paragraph: 14px;
-}
+} 
 *{
     box-sizing: border-box;
     padding: 0;
